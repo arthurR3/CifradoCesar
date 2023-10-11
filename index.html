@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Cifrado César</title>
+</head>
+
+<body>
+    <div class="aling-center">
+        <div class="formulario-rfc">
+            <h1>Cifrado César</h1>
+            <label for="textInput">Texto:</label><br>
+            <input type="text" id="textInput"><br>
+            <div class="bottons">
+                <button onclick="cifrar()">Cifrar</button>
+                <button onclick="descifrar()">Descifrar</button><br>
+            </div>
+
+            <label for="outputText">Texto cifrado/descifrado:</label><br>
+            <input type="text" id="outputText" readonly>
+
+            <script src="cifrado.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

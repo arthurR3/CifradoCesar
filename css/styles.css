@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.aling-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+.formulario-rfc{
+    height: 500px;
+    width: 25%;
+    box-shadow: -9px 8px 35px -12px rgba(0, 0, 0, 0.75);
+    border-radius:8px ;
+    padding: 2em;
+}
+h1{
+    margin-bottom: 10px;
+}
+label,input{
+    display: block;
+    margin-bottom: 1.1em;
+    width: 100%;
+}
+input{
+    padding: 0.5em;
+}
+button{
+    background-color: #1d87cd;
+    color: white;
+    padding: 0.9em;
+    border: none;
+    border-radius: 0.8em;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+#rfc_text{
+    color: #1d87cd;
+    margin-top: 10px;
+}
+
+.bottons{
+    width: 100px;
+    margin-bottom: 10px;
+}
